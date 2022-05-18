@@ -1,7 +1,5 @@
 # Repository containing the code used in the paper "A unified framework for dataset shift diagnostics" available on arXiv.
 
-### This repository contains code used in our paper experiments.
-
 You can access our paper by clicking [**here**](https://arxiv.org/abs/2205.08340). 
 
 In case you have any question, please get in touch sending us an e-mail in *felipemaiapolo@gmail.com*.
