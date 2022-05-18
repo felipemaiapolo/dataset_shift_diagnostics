@@ -8,7 +8,7 @@ Citation:
 
     @misc{polo2022unified,
       title={A unified framework for dataset shift diagnostics}, 
-      author={Felipe Maia Polo and Rafael Izbicki and Evanildo Gomes Lacerda Jr au2 and Juan Pablo Ibieta-Jimenez and Renato Vicente},
+      author={Felipe Maia Polo and Rafael Izbicki and Evanildo Gomes Lacerda Jr and Juan Pablo Ibieta-Jimenez and Renato Vicente},
       year={2022},
       eprint={2205.08340},
       archivePrefix={arXiv},
