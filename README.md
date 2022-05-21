@@ -6,13 +6,11 @@ In case you have any question, please get in touch sending us an e-mail in *feli
 
 Citation:
 
-    @misc{polo2022unified,
-      title={A unified framework for dataset shift diagnostics}, 
-      author={Felipe Maia Polo and Rafael Izbicki and Evanildo Gomes Lacerda Jr and Juan Pablo Ibieta-Jimenez and Renato Vicente},
-      year={2022},
-      eprint={2205.08340},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+    @article{polo2022unified,
+      title={A unified framework for dataset shift diagnostics},
+      author={Polo, Felipe Maia and Izbicki, Rafael and Lacerda Jr, Evanildo Gomes and Ibieta-Jimenez, Juan Pablo and Vicente, Renato},
+      journal={arXiv preprint arXiv:2205.08340},
+      year={2022}
     }
 
 --------------
