@@ -6,7 +6,7 @@ from catboost import CatBoostClassifier
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import RidgeCV
 from catboost import CatBoostRegressor
-from .utils import *
+from utils import *
 
 class cde_reg:
     '''
@@ -52,7 +52,7 @@ class cde_reg:
             self.model.fit(X_train, y_train,
                       verbose=False,
                       eval_set=(X_val, y_val),
-                      early_stopping_rounds = 100)
+                      early_stopping_rounds = 10)
 
             e = self.model.predict(X_val).squeeze()-np.array(y_val).squeeze()
             self.s2=np.var(e)
@@ -126,11 +126,11 @@ class cde_class:
             self.model.fit(X_train, y_train,
                            verbose=False,
                            eval_set=(X_val, y_val),
-                           early_stopping_rounds = 100)
+                           early_stopping_rounds = 10)
          
         else:
             if self.cv==None:
-                self.model = LogisticRegression(solver='liblinear', random_state=random_seed).fit(X, y)
+                self.model = LogisticRegression(solver='liblinear', random_state=random_seed).fit(X, y) #
             else: 
                 self.model = LogisticRegressionCV(cv=self.cv, scoring='neg_log_loss', solver='liblinear', 
                                                   random_state=random_seed).fit(X, y)

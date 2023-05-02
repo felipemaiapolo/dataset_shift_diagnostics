@@ -1,19 +1,6 @@
-# Repository containing the code used in the paper "A unified framework for dataset shift diagnostics" available on arXiv.
+# Repository containing the code used in the paper "A unified framework for dataset shift diagnostics".
 
-You can access our paper by clicking [**here**](https://arxiv.org/abs/2205.08340). 
-
-In case you have any question, please get in touch sending us an e-mail in *felipemaiapolo@gmail.com*.
-
-Citation:
-
-    @article{polo2022unified,
-      title={A unified framework for dataset shift diagnostics},
-      author={Polo, Felipe Maia and Izbicki, Rafael and Lacerda Jr, Evanildo Gomes and Ibieta-Jimenez, Juan Pablo and Vicente, Renato},
-      journal={arXiv preprint arXiv:2205.08340},
-      year={2022}
-    }
-
---------------
+Please contact us via felipemaiapolo@gmail.com in case you have any questions or problems running the code.
 
 ### A brief description of the files and folders. 
 
